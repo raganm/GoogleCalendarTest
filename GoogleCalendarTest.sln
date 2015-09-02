@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCalendarTest", "GoogleCalendarTest\GoogleCalendarTest.csproj", "{9572447B-1BAE-462B-A0C1-69822AB7D6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarGenerator", "CalendarGenerator\CalendarGenerator.csproj", "{0FAA16F7-FD7A-4BF3-ADF2-A6C098ADF92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarGenerator.Utils", "CalendarGenerator.Utils\CalendarGenerator.Utils.csproj", "{AF09BF99-AA09-4807-B2CF-9706A508357C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9572447B-1BAE-462B-A0C1-69822AB7D6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9572447B-1BAE-462B-A0C1-69822AB7D6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9572447B-1BAE-462B-A0C1-69822AB7D6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9572447B-1BAE-462B-A0C1-69822AB7D6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FAA16F7-FD7A-4BF3-ADF2-A6C098ADF92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAA16F7-FD7A-4BF3-ADF2-A6C098ADF92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAA16F7-FD7A-4BF3-ADF2-A6C098ADF92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAA16F7-FD7A-4BF3-ADF2-A6C098ADF92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF09BF99-AA09-4807-B2CF-9706A508357C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF09BF99-AA09-4807-B2CF-9706A508357C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF09BF99-AA09-4807-B2CF-9706A508357C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF09BF99-AA09-4807-B2CF-9706A508357C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
