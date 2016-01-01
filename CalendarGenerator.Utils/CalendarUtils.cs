@@ -121,12 +121,15 @@ namespace CalendarGenerator.Utils
 
                 if (hockeyEvent.Summary.ToLower().Contains("oliver"))
                 {
-                    day.OliverHockey = new HockeyEvent(googleEvent.Start, googleEvent.End, hockeyEvent.Summary);
-                }
-
-                if (hockeyEvent.Summary.ToLower().Contains("bradley"))
+                    day.OliverHockey.Add(new HockeyEvent(googleEvent.Start, googleEvent.End, hockeyEvent.Summary));
+                }else if (hockeyEvent.Summary.ToLower().Contains("bradley"))
                 {
-                    day.BradleyHockey = new HockeyEvent(googleEvent.Start, googleEvent.End, hockeyEvent.Summary);
+                    day.BradleyHockey.Add(new HockeyEvent(googleEvent.Start, googleEvent.End, hockeyEvent.Summary));
+                }
+                else
+                {
+                    day.OliverHockey.Add(new HockeyEvent(googleEvent.Start, googleEvent.End, hockeyEvent.Summary));
+                    day.BradleyHockey.Add(new HockeyEvent(googleEvent.Start, googleEvent.End, hockeyEvent.Summary));
                 }
 
             }

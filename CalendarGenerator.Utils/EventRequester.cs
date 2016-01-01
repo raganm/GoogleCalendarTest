@@ -18,7 +18,7 @@ namespace CalendarGenerator.Utils
             // Define parameters of request.
             var request = _service.Events.List(calendarId);
             request.TimeMin = startDate;
-            request.TimeMax = endDate;
+            request.TimeMax = endDate.AddDays(1);
             request.ShowDeleted = false;
             request.SingleEvents = true;
             //request.MaxResults = 100;

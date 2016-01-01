@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCalendarTest", "GoogleCalendarTest\GoogleCalendarTest.csproj", "{9572447B-1BAE-462B-A0C1-69822AB7D6EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarGenerator", "CalendarGenerator\CalendarGenerator.csproj", "{0FAA16F7-FD7A-4BF3-ADF2-A6C098ADF92C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarGenerator.Utils", "CalendarGenerator.Utils\CalendarGenerator.Utils.csproj", "{AF09BF99-AA09-4807-B2CF-9706A508357C}"
-EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup", "Setup\Setup.isproj", "{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,16 +48,6 @@ Global
 		{AF09BF99-AA09-4807-B2CF-9706A508357C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF09BF99-AA09-4807-B2CF-9706A508357C}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{AF09BF99-AA09-4807-B2CF-9706A508357C}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.Debug|Any CPU.ActiveCfg = DVD-5
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.Debug|Any CPU.Build.0 = DVD-5
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.DVD-5|Any CPU.Build.0 = DVD-5
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.Release|Any CPU.ActiveCfg = SingleImage
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.Release|Any CPU.Build.0 = SingleImage
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{BD6FD0E0-61C0-46E5-829A-84A02F72C3ED}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

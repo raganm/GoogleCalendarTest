@@ -48,32 +48,61 @@ namespace CalendarGenerator.Utils
 
                 if (mcgillDay.OliverHockey != null)
                 {
-                    _sheet.Cells[startRow, 5] = mcgillDay.OliverHockey.Text;
+                    var summary = string.Empty;
 
-                    if (mcgillDay.OliverHockey.IsGame && mcgillDay.OliverHockey.IsHome)
+                    foreach (var hockeyEvent in mcgillDay.OliverHockey)
                     {
-                        _sheet.Range["E" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.MediumSeaGreen); ;
+                        if (summary == string.Empty)
+                        {
+                            summary = hockeyEvent.Text;
+                        }
+                        else
+                        {
+                            summary += " | " + hockeyEvent.Text;
+                        }
+
+                        if (hockeyEvent.IsGame && hockeyEvent.IsHome)
+                        {
+                            _sheet.Range["E" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.MediumSeaGreen); ;
+                        }
+
+                        if (hockeyEvent.IsGame && hockeyEvent.IsAway)
+                        {
+                            _sheet.Range["E" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Crimson); ;
+                        }
                     }
 
-                    if (mcgillDay.OliverHockey.IsGame && mcgillDay.OliverHockey.IsAway)
-                    {
-                        _sheet.Range["E" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Crimson); ;
-                    }
+                    _sheet.Cells[startRow, 5].Value = summary;
+
                 }
 
                 if (mcgillDay.BradleyHockey != null)
                 {
-                    _sheet.Cells[startRow, 6] = mcgillDay.BradleyHockey.Text;
+                    var summary = string.Empty;
 
-                    if (mcgillDay.BradleyHockey.IsGame && mcgillDay.BradleyHockey.IsHome)
+                    foreach (var hockeyEvent in mcgillDay.BradleyHockey)
                     {
-                        _sheet.Range["F" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.MediumSeaGreen); ;
+                        if (summary == string.Empty)
+                        {
+                            summary = hockeyEvent.Text;
+                        }
+                        else
+                        {
+                            summary += " | " + hockeyEvent.Text;
+                        }
+
+                        if (hockeyEvent.IsGame && hockeyEvent.IsHome)
+                        {
+                            _sheet.Range["F" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.MediumSeaGreen); ;
+                        }
+
+                        if (hockeyEvent.IsGame && hockeyEvent.IsAway)
+                        {
+                            _sheet.Range["F" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Crimson); ;
+                        }
                     }
 
-                    if (mcgillDay.BradleyHockey.IsGame && mcgillDay.BradleyHockey.IsAway)
-                    {
-                        _sheet.Range["F" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Crimson); ;
-                    }
+                    _sheet.Cells[startRow, 6].Value = summary;
                 }
 
                 if (mcgillDay.SchoolHoliday)

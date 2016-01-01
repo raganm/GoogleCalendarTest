@@ -43,3 +43,48 @@
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\GoogleCalendarTest\obj\Debug\GoogleCalendarTest.csproj.ResolveComReference.cache
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\GoogleCalendarTest\obj\Debug\GoogleCalendarTest.exe
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\GoogleCalendarTest\obj\Debug\GoogleCalendarTest.pdb
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Calendar TEMPLATE.xlsx
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\client_secret.json
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\GoogleCalendarTest.exe.config
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\GoogleCalendarTest.exe
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\GoogleCalendarTest.pdb
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\CalendarGenerator.Utils.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Auth.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Core.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.PlatformServices.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\log4net.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Newtonsoft.Json.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\System.Net.Http.Extensions.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\System.Net.Http.Primitives.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Zlib.Portable.dll
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\CalendarGenerator.Utils.pdb
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.pdb
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Auth.pdb
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Auth.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Core.pdb
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.Core.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.PlatformServices.pdb
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Google.Apis.PlatformServices.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\log4net.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Newtonsoft.Json.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\System.Net.Http.Extensions.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\System.Net.Http.Primitives.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\bin\Debug\Zlib.Portable.xml
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\obj\Debug\GoogleCalendarTest.csprojResolveAssemblyReference.cache
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\obj\Debug\GoogleCalendarTest.csproj.ResolveComReference.cache
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\obj\Debug\GoogleCalendarTest.exe
+C:\dev\GoogleCalendarTest\GoogleCalendarTest\obj\Debug\GoogleCalendarTest.pdb

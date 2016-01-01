@@ -6,8 +6,8 @@ namespace CalendarGenerator.Utils
     public class McGillDay
     {
         public DateTime Date { get; set; }
-        public HockeyEvent OliverHockey { get; set; }
-        public HockeyEvent BradleyHockey { get; set; }
+        public List<HockeyEvent> OliverHockey { get; set; }
+        public List<HockeyEvent> BradleyHockey { get; set; }
         public List<Birthday> Birthdays { get; set; }
         public string Events { get; set; }
         public bool IsGreenBinWeek { get; set; }
@@ -22,6 +22,8 @@ namespace CalendarGenerator.Utils
         {
             Date = date;
             Birthdays = new List<Birthday>();
+            OliverHockey = new List<HockeyEvent>();
+            BradleyHockey = new List<HockeyEvent>();
         }
 
         public int Day
@@ -38,7 +40,8 @@ namespace CalendarGenerator.Utils
         {
             get
             {
-                return !SchoolHoliday && (Date.DayOfWeek == DayOfWeek.Thursday || Date.DayOfWeek == DayOfWeek.Friday) && (HayleyHoliday == false ||RaganHoliday == false);
+                return !SchoolHoliday && (Date.DayOfWeek == DayOfWeek.Friday) && (HayleyHoliday == false ||RaganHoliday == false);
+                //return !SchoolHoliday && (Date.DayOfWeek == DayOfWeek.Thursday || Date.DayOfWeek == DayOfWeek.Friday) && (HayleyHoliday == false ||RaganHoliday == false);
                 //return (Date.DayOfWeek == DayOfWeek.Thursday || Date.DayOfWeek == DayOfWeek.Friday) && (HayleyHoliday == false ||RaganHoliday == false);
             }
         }

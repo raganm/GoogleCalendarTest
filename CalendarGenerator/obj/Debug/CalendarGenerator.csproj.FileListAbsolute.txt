@@ -47,3 +47,52 @@
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.csproj.GenerateResource.Cache
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.exe
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.exe.config
+C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.exe
+C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Calendar TEMPLATE.xlsx
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\client_secret.json
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.exe
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.Utils.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Auth.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Core.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.PlatformServices.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\GoogleCalendarTest.exe
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\log4net.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\System.Net.Http.Extensions.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\System.Net.Http.Primitives.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Zlib.Portable.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.Utils.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\GoogleCalendarTest.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Auth.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Auth.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Auth.PlatformServices.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Auth.PlatformServices.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Core.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.Core.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.PlatformServices.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Google.Apis.PlatformServices.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\log4net.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\System.Net.Http.Extensions.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\System.Net.Http.Primitives.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Zlib.Portable.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.csprojResolveAssemblyReference.cache
+C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.Form1.resources
+C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.Properties.Resources.resources
+C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.csproj.GenerateResource.Cache
