@@ -40,7 +40,8 @@ namespace CalendarGenerator.Utils
         {
             get
             {
-                return !SchoolHoliday && (Date.DayOfWeek == DayOfWeek.Thursday) && (HayleyHoliday == false ||RaganHoliday == false);
+                return false;
+                //return !SchoolHoliday && (Date.DayOfWeek == DayOfWeek.Thursday) && (HayleyHoliday == false ||RaganHoliday == false);
                 //return !SchoolHoliday && (Date.DayOfWeek == DayOfWeek.Thursday || Date.DayOfWeek == DayOfWeek.Friday) && (HayleyHoliday == false ||RaganHoliday == false);
                 //return (Date.DayOfWeek == DayOfWeek.Thursday || Date.DayOfWeek == DayOfWeek.Friday) && (HayleyHoliday == false ||RaganHoliday == false);
             }

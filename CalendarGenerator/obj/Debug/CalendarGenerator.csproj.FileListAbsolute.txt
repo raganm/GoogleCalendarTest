@@ -47,11 +47,10 @@
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.csproj.GenerateResource.Cache
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.exe
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.pdb
-C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.exe.config
-C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.exe
-C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.pdb
 C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\Calendar TEMPLATE.xlsx
 C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\client_secret.json
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\cal.ico
+C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.exe.config
 C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.exe
 C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.pdb
 C:\dev\GoogleCalendarTest\CalendarGenerator\bin\Debug\CalendarGenerator.Utils.dll
@@ -96,3 +95,5 @@ C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.csprojRe
 C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.Form1.resources
 C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.Properties.Resources.resources
 C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.csproj.GenerateResource.Cache
+C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.exe
+C:\dev\GoogleCalendarTest\CalendarGenerator\obj\Debug\CalendarGenerator.pdb

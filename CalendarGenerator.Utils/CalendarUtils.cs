@@ -145,36 +145,39 @@ namespace CalendarGenerator.Utils
 
                 foreach (var day in days)
                 {
-                    if (_holidayTerms.Any(word => googleEvent.GoogleEvent.Summary.ToLower().Contains(word)))
+                    var summary = googleEvent.GoogleEvent.Summary ?? "NO TITLE";
+                    summary = summary.Replace(Environment.NewLine, " ");
+                    summary = summary.Replace("\n", " ");
+                    if (_holidayTerms.Any(word => summary.ToLower().Contains(word)))
                     {
-                        if (googleEvent.GoogleEvent.Summary.ToLower().Contains("term") || googleEvent.GoogleEvent.Summary.ToLower().Contains("holiday"))
+                        if (summary.ToLower().Contains("term") || summary.ToLower().Contains("holiday"))
                         {
                             day.SchoolHoliday = true;
                         }
 
-                        if (googleEvent.GoogleEvent.Summary.ToLower().Contains("ragan"))
+                        if (summary.ToLower().Contains("ragan"))
                         {
                             day.RaganHoliday = true;
                         }
 
-                        if (googleEvent.GoogleEvent.Summary.ToLower().Contains("hayley"))
+                        if (summary.ToLower().Contains("hayley"))
                         {
                             day.HayleyHoliday = true;
                         }
 
-                        if (googleEvent.GoogleEvent.Summary.ToLower().Contains("bradley"))
+                        if (summary.ToLower().Contains("bradley"))
                         {
                             day.BradleyHoliday = true;
                         }
 
-                        if (googleEvent.GoogleEvent.Summary.ToLower().Contains("oliver"))
+                        if (summary.ToLower().Contains("oliver"))
                         {
                             day.OliverHoliday = true;
                         }
                     }
-                    else if (_ascTerms.Any(word => googleEvent.GoogleEvent.Summary.ToLower().Contains(word)))
+                    else if (_ascTerms.Any(word => summary.Contains(word)))
                     {
-                        var where = googleEvent.GoogleEvent.Summary.ToLower();
+                        var where = summary.ToLower();
 
                         foreach (var ascTerm in _ascTerms)
                         {
@@ -188,11 +191,11 @@ namespace CalendarGenerator.Utils
                         string description;
                         if (googleEvent.Start.TimeOfDay.Hours == 0 && googleEvent.Start.TimeOfDay.Minutes == 0)
                         {
-                            description = string.Format("{0}", googleEvent.GoogleEvent.Summary);
+                            description = string.Format("{0}", summary);
                         }
                         else
                         {
-                            description = string.Format("{0} {1}", googleEvent.Start.ToString("HH:mm"), googleEvent.GoogleEvent.Summary);
+                            description = string.Format("{0} {1}", googleEvent.Start.ToString("HH:mm"), summary);
                         }
 
                         if (string.IsNullOrWhiteSpace(day.Events))

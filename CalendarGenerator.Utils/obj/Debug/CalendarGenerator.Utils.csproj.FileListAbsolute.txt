@@ -42,10 +42,6 @@
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.csproj.ResolveComReference.cache
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.dll
 \\vmware-host\shared folders\documents\visual studio 2013\Projects\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.pdb
-C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.csproj.App.config
-C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.csproj.ResolveComReference.cache
-C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.dll
-C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.pdb
 C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\bin\Debug\Calendar TEMPLATE.xlsx
 C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\bin\Debug\client_secret.json
 C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\bin\Debug\CalendarGenerator.Utils.dll.config
@@ -85,4 +81,8 @@ C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\bin\Debug\Newtonsoft.Json.xml
 C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\bin\Debug\System.Net.Http.Extensions.xml
 C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\bin\Debug\System.Net.Http.Primitives.xml
 C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\bin\Debug\Zlib.Portable.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.csproj.App.config
+C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.csproj.ResolveComReference.cache
+C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.pdb
 C:\dev\GoogleCalendarTest\CalendarGenerator.Utils\obj\Debug\CalendarGenerator.Utils.csprojResolveAssemblyReference.cache

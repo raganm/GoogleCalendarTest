@@ -28,4 +28,10 @@
 		</TaggedOutputs> -->
 	</ItemGroup>
 	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2015Limited\InstallShield.targets"/>
+	<ItemGroup>
+		<ProjectReference Include="..\CalendarGenerator\CalendarGenerator.csproj">
+			<Name>CalendarGenerator</Name>
+			<Project>{0FAA16F7-FD7A-4BF3-ADF2-A6C098ADF92C}</Project>
+		</ProjectReference>
+	</ItemGroup>
 </Project>
