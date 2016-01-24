@@ -54,11 +54,11 @@ namespace CalendarGenerator.Utils
                     {
                         if (summary == string.Empty)
                         {
-                            summary = hockeyEvent.Text;
+                            summary = hockeyEvent.Text.Trim();
                         }
                         else
                         {
-                            summary += " | " + hockeyEvent.Text;
+                            summary += "\n" + hockeyEvent.Text.Trim();
                         }
 
                         if (hockeyEvent.IsGame && hockeyEvent.IsHome)
@@ -70,6 +70,11 @@ namespace CalendarGenerator.Utils
                         {
                             _sheet.Range["E" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Crimson); ;
                         }
+                    }
+
+                    if (mcgillDay.OliverHockey.Count > 1)
+                    {
+                        _sheet.Range["E" + startRow].Font.Size = 8;
                     }
 
                     _sheet.Cells[startRow, 5].Value = summary;
@@ -88,7 +93,7 @@ namespace CalendarGenerator.Utils
                         }
                         else
                         {
-                            summary += " | " + hockeyEvent.Text;
+                            summary += "\n" + hockeyEvent.Text;
                         }
 
                         if (hockeyEvent.IsGame && hockeyEvent.IsHome)
@@ -100,6 +105,11 @@ namespace CalendarGenerator.Utils
                         {
                             _sheet.Range["F" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Crimson); ;
                         }
+                    }
+
+                    if (mcgillDay.BradleyHockey.Count > 1)
+                    {
+                        _sheet.Range["F" + startRow].Font.Size = 8;
                     }
 
                     _sheet.Cells[startRow, 6].Value = summary;

@@ -1,0 +1,7 @@
+C:\dev\GoogleCalendarTest\CalendarGenerator.Tests\bin\Debug\CalendarGenerator.Tests.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator.Tests\bin\Debug\CalendarGenerator.Tests.pdb
+C:\dev\GoogleCalendarTest\CalendarGenerator.Tests\bin\Debug\nunit.framework.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator.Tests\bin\Debug\nunit.framework.xml
+C:\dev\GoogleCalendarTest\CalendarGenerator.Tests\obj\Debug\CalendarGenerator.Tests.csprojResolveAssemblyReference.cache
+C:\dev\GoogleCalendarTest\CalendarGenerator.Tests\obj\Debug\CalendarGenerator.Tests.dll
+C:\dev\GoogleCalendarTest\CalendarGenerator.Tests\obj\Debug\CalendarGenerator.Tests.pdb
