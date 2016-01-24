@@ -28,6 +28,7 @@ namespace CalendarGenerator.Utils
             foreach (var mcgillDay in days)
             {
                 _sheet.Cells[startRow, 1] = mcgillDay.Day;
+
                 _sheet.Cells[startRow, 2] = mcgillDay.DayName.ToUpper();
                 if (mcgillDay.IsGreenBinWeek)
                 {
@@ -98,12 +99,12 @@ namespace CalendarGenerator.Utils
 
                         if (hockeyEvent.IsGame && hockeyEvent.IsHome)
                         {
-                            _sheet.Range["F" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.MediumSeaGreen); ;
+                            _sheet.Range["F" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.MediumSeaGreen);
                         }
 
                         if (hockeyEvent.IsGame && hockeyEvent.IsAway)
                         {
-                            _sheet.Range["F" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Crimson); ;
+                            _sheet.Range["F" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Crimson);
                         }
                     }
 
@@ -123,9 +124,21 @@ namespace CalendarGenerator.Utils
                 _sheet.Cells[startRow, 7] = mcgillDay.HolidayDescription;
 
                 _sheet.Cells[startRow, 8] = mcgillDay.Events;
+
+                if (mcgillDay.IsWeekend)
+                {
+                    ShadeWeekend(startRow);
+                }
+
                 startRow++;
             }
+
             _sheet.Range["A1"].Select();
+        }
+
+        private void ShadeWeekend(int startRow)
+        {
+            _sheet.Range["A" + startRow, "H" + startRow].Interior.Color = ColorTranslator.ToOle(System.Drawing.Color.Gainsboro); ;
         }
     }
 }

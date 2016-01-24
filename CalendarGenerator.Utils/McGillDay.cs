@@ -36,6 +36,14 @@ namespace CalendarGenerator.Utils
             get { return Date.ToString("dddd"); }
         }
 
+        public bool IsWeekend
+        {
+            get
+            {
+                return Date.DayOfWeek == DayOfWeek.Saturday || Date.DayOfWeek == DayOfWeek.Sunday;
+            }
+        }
+
         public bool IsAfterSchoolClub
         {
             get
