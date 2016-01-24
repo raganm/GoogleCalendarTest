@@ -28,20 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.txtMonth = new System.Windows.Forms.TextBox();
             this.txtYear = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAscColour = new System.Windows.Forms.Button();
+            this.btnHolidayColour = new System.Windows.Forms.Button();
             this.txtAscTerms = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtHolidayTerms = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnHolidayColour = new System.Windows.Forms.Button();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.btnAscColour = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -93,6 +96,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.btnAscColour);
             this.panel1.Controls.Add(this.btnHolidayColour);
             this.panel1.Controls.Add(this.txtAscTerms);
@@ -108,6 +112,26 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(409, 183);
             this.panel1.TabIndex = 7;
+            // 
+            // btnAscColour
+            // 
+            this.btnAscColour.Location = new System.Drawing.Point(295, 43);
+            this.btnAscColour.Name = "btnAscColour";
+            this.btnAscColour.Size = new System.Drawing.Size(102, 27);
+            this.btnAscColour.TabIndex = 12;
+            this.btnAscColour.Text = "Asc Colour";
+            this.btnAscColour.UseVisualStyleBackColor = true;
+            this.btnAscColour.Click += new System.EventHandler(this.btnAscColour_Click);
+            // 
+            // btnHolidayColour
+            // 
+            this.btnHolidayColour.Location = new System.Drawing.Point(295, 10);
+            this.btnHolidayColour.Name = "btnHolidayColour";
+            this.btnHolidayColour.Size = new System.Drawing.Size(102, 27);
+            this.btnHolidayColour.TabIndex = 11;
+            this.btnHolidayColour.Text = "Holiday Colour";
+            this.btnHolidayColour.UseVisualStyleBackColor = true;
+            this.btnHolidayColour.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtAscTerms
             // 
@@ -145,25 +169,15 @@
             this.label3.Text = "Holiday Terms";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // btnHolidayColour
+            // pictureBox1
             // 
-            this.btnHolidayColour.Location = new System.Drawing.Point(295, 10);
-            this.btnHolidayColour.Name = "btnHolidayColour";
-            this.btnHolidayColour.Size = new System.Drawing.Size(102, 27);
-            this.btnHolidayColour.TabIndex = 11;
-            this.btnHolidayColour.Text = "Holiday Colour";
-            this.btnHolidayColour.UseVisualStyleBackColor = true;
-            this.btnHolidayColour.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // btnAscColour
-            // 
-            this.btnAscColour.Location = new System.Drawing.Point(295, 43);
-            this.btnAscColour.Name = "btnAscColour";
-            this.btnAscColour.Size = new System.Drawing.Size(102, 27);
-            this.btnAscColour.TabIndex = 12;
-            this.btnAscColour.Text = "Asc Colour";
-            this.btnAscColour.UseVisualStyleBackColor = true;
-            this.btnAscColour.Click += new System.EventHandler(this.btnAscColour_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(403, 177);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
             // 
             // Form1
             // 
@@ -176,6 +190,7 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,6 +210,7 @@
         private System.Windows.Forms.Button btnHolidayColour;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Button btnAscColour;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -33,6 +33,7 @@ namespace CalendarGenerator
 
         private void button1_Click(object sender, EventArgs e)
         {
+            pictureBox1.Visible = true;
             char[] charSeparators = new char[] { ',' };
             button1.Enabled = false;
 
@@ -47,6 +48,7 @@ namespace CalendarGenerator
             var days = calendarUtils.GenerateDays(startDate, endDate, service);
             calendarUtils.GenerateCalendar(startDate, days, _holidayColour,_ascColour);
             button1.Enabled = true;
+            pictureBox1.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)

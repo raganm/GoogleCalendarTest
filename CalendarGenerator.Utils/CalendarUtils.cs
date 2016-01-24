@@ -230,7 +230,7 @@ namespace CalendarGenerator.Utils
 
         public void GenerateCalendar(DateTime startDate, List<McGillDay> days, Color holidayColour, Color ascColour)
         {
-            var xlApp = new Application { Visible = true };
+            var xlApp = new Application { Visible = false };
             var spreadsheetLocation = Path.Combine(Directory.GetCurrentDirectory(), "Calendar TEMPLATE.xlsx");
 
             var workbook = xlApp.Workbooks.Open(spreadsheetLocation);
@@ -244,6 +244,7 @@ namespace CalendarGenerator.Utils
             calendarBuilder.Create(days, holidayColour,ascColour);
 
             xlApp.Visible = true;
+            xlApp.WindowState = XlWindowState.xlMaximized;
         }
     }
 }

@@ -4345,7 +4345,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>ProductCode</td><td>{76FCA1DA-1E4C-4B8C-A295-D696D52BE174}</td><td/></row>
+		<row><td>ProductCode</td><td>{DE556A5F-A8D5-4507-8104-19F34277DFC7}</td><td/></row>
 		<row><td>ProductName</td><td>McCalendar</td><td/></row>
 		<row><td>ProductVersion</td><td>1.10.0000</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
