@@ -71,5 +71,13 @@ namespace CalendarGenerator.Utils
             }
         }
 
+        public bool IsChildcareNeeded
+        {
+            get
+            {
+                return (Date.DayOfWeek == DayOfWeek.Thursday || Date.DayOfWeek == DayOfWeek.Friday) &&
+                       (IsRaganOnHoliday == false && IsHayleyOnHoliday == false) && IsSchoolHoliday;
+            }
+        }
     }
 }

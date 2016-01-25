@@ -40,7 +40,21 @@ namespace CalendarGenerator.Utils
                 //    _sheet.Range["C" + startRow].Interior.Color = System.Drawing.ColorTranslator.ToOle(ascColor);
                 //}
 
-                _sheet.Cells[startRow, 3] = mcgillDay.AscWhere;
+                //_sheet.Cells[startRow, 3] = mcgillDay.AscWhere;
+
+                if (mcgillDay.IsSchoolHoliday)
+                {
+                    _sheet.Range["C" + startRow].Interior.Color = System.Drawing.ColorTranslator.ToOle(holidayColour);
+                    _sheet.Range["C" + startRow].Cells.HorizontalAlignment = XlHAlign.xlHAlignCenter;
+                    if (mcgillDay.IsChildcareNeeded)
+                    {
+                        var range = _sheet.Range["C" + startRow];
+                        range.Borders.LineStyle = XlLineStyle.xlContinuous;
+                        range.Borders.Weight = XlBorderWeight.xlMedium;
+                        range.Borders.Color = ColorTranslator.ToOle(Color.Red);
+                    }
+                }
+                _sheet.Cells[startRow, 3] = mcgillDay.HolidayDescription;
 
                 foreach (var birthday in mcgillDay.Birthdays)
                 {
@@ -116,14 +130,7 @@ namespace CalendarGenerator.Utils
                     _sheet.Cells[startRow, 6].Value = summary;
                 }
 
-                if (mcgillDay.IsSchoolHoliday)
-                {
-                    _sheet.Range["G" + startRow].Interior.Color = System.Drawing.ColorTranslator.ToOle(holidayColour);
-                    _sheet.Range["G" + startRow].Cells.HorizontalAlignment = XlHAlign.xlHAlignCenter;
-                }
-                _sheet.Cells[startRow, 7] = mcgillDay.HolidayDescription;
-
-                _sheet.Cells[startRow, 8] = mcgillDay.Events;
+                _sheet.Cells[startRow, 7] = mcgillDay.Events;
 
                 if (mcgillDay.IsWeekend)
                 {
@@ -138,7 +145,7 @@ namespace CalendarGenerator.Utils
 
         private void ShadeWeekend(int startRow)
         {
-            _sheet.Range["A" + startRow, "H" + startRow].Interior.Color = ColorTranslator.ToOle(System.Drawing.Color.Gainsboro); ;
+            _sheet.Range["A" + startRow, "G" + startRow].Interior.Color = ColorTranslator.ToOle(System.Drawing.Color.Gainsboro); ;
         }
     }
 }
