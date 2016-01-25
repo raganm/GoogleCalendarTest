@@ -11,11 +11,11 @@ namespace CalendarGenerator.Utils
         public List<Birthday> Birthdays { get; set; }
         public string Events { get; set; }
         public bool IsGreenBinWeek { get; set; }
-        public bool SchoolHoliday { get; set; }
-        public bool HayleyHoliday { get; set; }
-        public bool RaganHoliday { get; set; }
-        public bool BradleyHoliday { get; set; }
-        public bool OliverHoliday { get; set; }
+        public bool IsSchoolHoliday { get; set; }
+        public bool IsHayleyOnHoliday { get; set; }
+        public bool IsRaganOnHoliday { get; set; }
+        public bool IsBradleyOnHoliday { get; set; }
+        public bool IsOliverOnHoliday { get; set; }
         public string AscWhere { get; set; }
 
         public DayOfMonth(DateTime date)
@@ -36,11 +36,11 @@ namespace CalendarGenerator.Utils
             get { return Date.ToString("dddd"); }
         }
 
-        public bool IsAfterSchoolClub
+        public bool IsWeekend
         {
             get
             {
-                return false;
+                return Date.DayOfWeek == DayOfWeek.Saturday || Date.DayOfWeek == DayOfWeek.Sunday;
             }
         }
 
@@ -50,19 +50,19 @@ namespace CalendarGenerator.Utils
             {
                 var description = string.Empty;
                 
-                if (RaganHoliday)
+                if (IsRaganOnHoliday)
                 {
                     description += "R";
                 }
-                if (HayleyHoliday)
+                if (IsHayleyOnHoliday)
                 {
                     description += "H";
                 }
-                if (BradleyHoliday)
+                if (IsBradleyOnHoliday)
                 {
                     //description += "B";
                 }
-                if (OliverHoliday)
+                if (IsOliverOnHoliday)
                 {
                     //description += "O";
                 }

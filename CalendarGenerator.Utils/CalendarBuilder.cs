@@ -22,7 +22,7 @@ namespace CalendarGenerator.Utils
             _sheet.Cells[1, 1] = title;
         }
 
-        public void Create(List<McGillDay> days, Color holidayColour, Color ascColor)
+        public void Create(List<DayOfMonth> days, Color holidayColour, Color ascColor)
         {
             var startRow = 3;
             foreach (var mcgillDay in days)
@@ -35,10 +35,10 @@ namespace CalendarGenerator.Utils
                     _sheet.Range["B" + startRow].Font.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.MediumSeaGreen); ;
                 }
 
-                if (mcgillDay.IsAfterSchoolClub)
-                {
-                    _sheet.Range["C" + startRow].Interior.Color = System.Drawing.ColorTranslator.ToOle(ascColor);
-                }
+                //if (mcgillDay.IsAfterSchoolClub)
+                //{
+                //    _sheet.Range["C" + startRow].Interior.Color = System.Drawing.ColorTranslator.ToOle(ascColor);
+                //}
 
                 _sheet.Cells[startRow, 3] = mcgillDay.AscWhere;
 
@@ -116,7 +116,7 @@ namespace CalendarGenerator.Utils
                     _sheet.Cells[startRow, 6].Value = summary;
                 }
 
-                if (mcgillDay.SchoolHoliday)
+                if (mcgillDay.IsSchoolHoliday)
                 {
                     _sheet.Range["G" + startRow].Interior.Color = System.Drawing.ColorTranslator.ToOle(holidayColour);
                     _sheet.Range["G" + startRow].Cells.HorizontalAlignment = XlHAlign.xlHAlignCenter;

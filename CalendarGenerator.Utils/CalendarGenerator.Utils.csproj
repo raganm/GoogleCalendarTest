@@ -93,7 +93,7 @@
     <Compile Include="EventRequester.cs" />
     <Compile Include="GoogleEventWrapper.cs" />
     <Compile Include="HockeyEvent.cs" />
-    <Compile Include="McGillDay.cs" />
+    <Compile Include="DayOfMonth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

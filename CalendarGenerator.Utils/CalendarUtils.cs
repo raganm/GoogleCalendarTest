@@ -24,7 +24,7 @@ namespace CalendarGenerator.Utils
         public readonly string HayleyCalendarId = "hayley.mcgill@googlemail.com";
         public readonly string BinCalendarId = "pthclls6qgesvg2iojmgj508vk@group.calendar.google.com";
         public readonly string BirthdayCalendarId = "pfnm9gobovns3lgd7799g0j3ps@group.calendar.google.com";
-        private readonly List<McGillDay> _days = new List<McGillDay>();
+        private readonly List<DayOfMonth> _days = new List<DayOfMonth>();
 
         public CalendarUtils(List<string> holidayTerms, List<string> ascTerms)
         {
@@ -32,13 +32,13 @@ namespace CalendarGenerator.Utils
             _ascTerms = ascTerms;
         }
 
-        public List<McGillDay> GenerateDays(DateTime startDate, DateTime endDate, CalendarService service)
+        public List<DayOfMonth> GenerateDays(DateTime startDate, DateTime endDate, CalendarService service)
         {
             var numberOfDays = DateTime.DaysInMonth(startDate.Year, startDate.Month);
 
             for (var i = 0; i < numberOfDays; i++)
             {
-                _days.Add(new McGillDay(startDate.AddDays(i)));
+                _days.Add(new DayOfMonth(startDate.AddDays(i)));
             }
 
             var eventRequester = new EventRequester(service);
@@ -152,27 +152,27 @@ namespace CalendarGenerator.Utils
                     {
                         if (summary.ToLower().Contains("term") || summary.ToLower().Contains("holiday"))
                         {
-                            day.SchoolHoliday = true;
+                            day.IsSchoolHoliday = true;
                         }
 
                         if (summary.ToLower().Contains("ragan"))
                         {
-                            day.RaganHoliday = true;
+                            day.IsRaganOnHoliday = true;
                         }
 
                         if (summary.ToLower().Contains("hayley"))
                         {
-                            day.HayleyHoliday = true;
+                            day.IsHayleyOnHoliday = true;
                         }
 
                         if (summary.ToLower().Contains("bradley"))
                         {
-                            day.BradleyHoliday = true;
+                            day.IsBradleyOnHoliday = true;
                         }
 
                         if (summary.ToLower().Contains("oliver"))
                         {
-                            day.OliverHoliday = true;
+                            day.IsOliverOnHoliday = true;
                         }
                     }
                     else if (_ascTerms.Any(word => summary.Contains(word)))
@@ -228,7 +228,7 @@ namespace CalendarGenerator.Utils
             }
         }
 
-        public void GenerateCalendar(DateTime startDate, List<McGillDay> days, Color holidayColour, Color ascColour)
+        public void GenerateCalendar(DateTime startDate, List<DayOfMonth> days, Color holidayColour, Color ascColour)
         {
             var xlApp = new Application { Visible = false };
             var spreadsheetLocation = Path.Combine(Directory.GetCurrentDirectory(), "Calendar TEMPLATE.xlsx");
